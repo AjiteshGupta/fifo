@@ -1,3 +1,9 @@
+//******** Documentation Section ***************
+//Byte wide FIFO Buffer
+// Author : Ajitesh Gupta
+// Date : 13th July 2019
+
+
 module fifo_2(data_out,data_in,full,empty,rd_en,wr_en,clk1,clk2,reset);
 output reg [7:0] data_out;
 input [7:0] data_in;
